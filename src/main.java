@@ -10,7 +10,7 @@ public class main {
         System.out.print("Enter a temperature in Celsius: ");
         
         // Read the temperature input from the user
-        double celsius =-300;
+        double celsius = input.nextDouble();
         
         // Check if the input is valid
         if (celsius < -273.15) {
